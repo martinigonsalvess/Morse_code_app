@@ -6,8 +6,8 @@ import './components/StyleBtn.css';
 function App() {
   return (
     <div className="App">
-      {/* <Content /> */}
-      <Btn />
+      <Content />
+      {/* <Btn /> */}
     </div>
   );
 }
