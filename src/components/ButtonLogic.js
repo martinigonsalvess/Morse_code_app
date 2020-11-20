@@ -1,5 +1,5 @@
 
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import MorseContext from './context/MorseContext'
 import useSound from 'use-sound'
 import audioa from './Audio/a.mp3'
@@ -175,6 +175,7 @@ const ButtonLogic = () => {
         return soundOn[e[2]]()
         case '0':
         return soundOn[e[2]]()
+      default : 
     }
   }
 

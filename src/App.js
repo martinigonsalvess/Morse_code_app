@@ -1,8 +1,6 @@
 
 import './App.css';
 import React, { useState } from 'react';
-import Input_output from './components/input-output';
-import ButtonLogic from './components/ButtonLogic'
 import MorseContext from './components/context/MorseContext'
 import Content from './components/Content';
 
