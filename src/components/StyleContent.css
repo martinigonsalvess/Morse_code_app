@@ -70,8 +70,17 @@ html{
     box-shadow: 10px 12px 15px 5px #000000;
 
 }
+.textInput, .morseInput{
+    background:#373736;
+    color: white;
+    width: 50%;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
 .content-output-morse{
-    /* background-image: url("./images/wood.jpg"); */
     display: flex;
     width: 60%;
     height: 75px;
@@ -79,8 +88,6 @@ html{
     border:2px solid goldenrod;
     margin-top: 10px;
     border-radius: 10px;
-    /* outline: 4px solid #fff;
-    box-shadow:inset 0 0 0 4px #fff; */
     box-shadow: 10px 12px 15px 5px #000000;
 
 }
@@ -88,9 +95,7 @@ html{
     background-image: url("./images/wood.jpg");
     display: flex;
     width: 60%;
-    height: 60vh;
-    /* background:white; */
-    /* border:2px solid #28000f; */
+    height: 70vh;
     margin-top: 10px;
     border-radius: 10px;
     /* outline: 4px solid #fff;
@@ -104,7 +109,7 @@ html{
 }
 .footer-about-us{
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 55px;
     background:#373736;
     border:2px solid goldenrod;
@@ -179,7 +184,7 @@ html{
         background-image: url("./images/wood.jpg");
         display: flex;
         width: 90%;
-        height: 60vh;
+        height: 70vh;
         /* background:white; */
         /* border:2px solid gray; */
         margin-top: 10px;
@@ -190,7 +195,7 @@ html{
     }
     .footer-about-us{
         display: flex;
-        width: 80%;
+        width: 90%;
         height: 55px;
         background:#373736;
         border:2px solid goldenrod;

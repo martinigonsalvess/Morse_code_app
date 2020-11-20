@@ -1,6 +1,6 @@
 // import Axios from 'axios';
 import React, { useEffect, useContext } from 'react';
-import MorseContext from '../context/MorseContext'
+import MorseContext from './context/MorseContext'
 export default function Input_output() {
 
 
