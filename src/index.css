@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Victorian';
+  src: local('Victorian Free Ornaments Two'), url('/home/martin/Desktop/Hackathlon/hackathon-morse-code/src/fonts/Victorian Free Ornaments Two.ttf') format('truetype');
+}
