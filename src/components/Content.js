@@ -1,10 +1,13 @@
 import React from 'react';
 import './StyleContent.css';
+import Buttons from './Buttons';
+import beard from "./images/beard.png";
+import man from "./images/man.png";
+import ninja from "./images/ninja.png";
 
 function Content() {
     return (
         <>
-
             <div className="content">
                 <div id="upper_left">n</div>
                 <div id="upper_right">n</div>
@@ -15,12 +18,12 @@ function Content() {
                     <div className="content-input-top-icon">w</div>
                     <div className="content-input-text"></div>
                     <div className="content-output-morse"></div>
-                    <div className="content-alphabeth-buttons"></div>
+                    <div className="content-alphabeth-buttons"><Buttons /></div>
                     <div className="footer-about-us">
                         <div className="img-container">
-                                <img src="./images/beard.png" />
-                                <img src="./images/beard.png" />
-                                <img src="./boy.png" />
+                                <img className="a" src={beard} />
+                                <img className="a"src={ninja} />
+                                <img className="a"src={man} />
                         </div>
                     </div>
 
