@@ -28,12 +28,12 @@ export default function Inputoutput() {
             // If user inserts a space, then 3 spaces are inserted
             // in morseCode, as a word division
             if (textCode[i] === ' ') {
-                translation = translation + '   '
+                translation += '   '
             }
 
             for (let j = 0; j < letters.length; j++) {
                 if (letters[j].includes(textCode[i])) {
-                    translation = translation + (letters[j][1] + ' ')
+                    translation += (letters[j][1] + ' ')
                 }
             }
             setMorseCode(translation)
@@ -62,7 +62,7 @@ return (
             spellCheck="false"
             type="text"
             placeholder="Enter text..."
-            value={textCode}
+            value={textCode.toUpperCase()}
             onChange={handleInputText}
         />
 

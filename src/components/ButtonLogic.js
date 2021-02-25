@@ -45,8 +45,6 @@ const ButtonLogic = () => {
 
   const { letters, textCode, setTextCode } = useContext(MorseContext);
 
-
-
   const [sounda] = useSound(audioa, { interrupt: true })
   const [soundb] = useSound(audiob, { interrupt: true })
   const [soundc] = useSound(audioc, { interrupt: true })
